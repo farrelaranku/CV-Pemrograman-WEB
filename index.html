@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Farrela Ranku Mahhisa</title>
+    <style>
+      * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body {
+            min-width: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+          
+        }
+
+        main {
+            width: 100%;
+            max-width: 1080px;
+            padding: 2rem 1rem;
+            
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+           
+            color: #000000;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+    
+
+     
+
+        .profile__about {
+            padding: 0rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 0.5rem;
+            max-width: 100%;
+        }
+
+        .profile__about-contacts {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.25rem;
+            
+        }
+
+        .profile__about-contacts > a{
+            color:gray;
+        }
+
+        .profile__about-contacts > a:hover {
+            color:#0a66c2;
+            /* text-decoration-color: #095bae; */
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .section-header {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .section-header hr {
+            border-color: black;
+        }
+
+        .section-items {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .section-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            padding: 0 1rem;
+        }
+
+        .section-item__header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section-item__title {
+            max-width: 45%;
+            font-weight: bold;
+        }
+
+        .section-item__title > span {
+            font-weight: normal;
+            color: slategray;
+        }
+
+        .section-item__role {
+            font-style: italic;
+        }
+
+        .section-item__descs {
+            padding-left: 1rem;
+        }
+
+        .section-item__desc {
+            line-height: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <img class="img-fluid" src="foto.jpeg" alt="Foto Profil farrelaranku" >
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="profile__about">
+                        <h1>FARRELA RANKU MAHHISA</h1>
+                        <div class="profile__about-contacts">
+                            <a href="https://wa.me/+6281334585195" target="_blank">+6281334585195</a>
+                            <a href="mailto:farrelaranku@gmail.com" target="_blank">farrelaranku@gmail.com</a>
+                            <a href="https://www.linkedin.com/in/farrelaranku/" target="_blank">linkedin.com/in/farrelaranku</a>
+                        </div>
+                        <p style="color:slategray;">
+                            Perum Ramada Jl. Kebraon Indah Asri no. 38, Kebraon, Karang Pilang, Surabaya
+                        </p>
+                        <p>
+                            Saya adalah seorang mahasiswa yang kini menjalani tahun ketiga pada program studi Teknik Informatika. Saya memiliki minat yang mendalam dalam bidang kepemimpinan dan manajemen sumber daya manusia yang saya kembangkan melalui pengalaman aktif dalam berbagai kegiatan, kepanitiaan, dan organisasi di lingkungan kampus. Melalui perjalanan dan keterlibatan saya dalam berbagai aktivitas, saya berharap dapat terus mengembangkan kemampuan saya dan memberikan kontribusi yang berarti di masa depan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="section-header">
+                <h1>Pendidikan</h1>
+                <hr/>
+            </div>
+      
+
+
+        <table class="table-borderless">
+            <thead>
+              <tr>
+                <th>Jenjang</th>
+                <th>Nama Sekolah/Perguruan Tinggi</th>
+                <th>Tahun Masuk</th>
+                <th>Tahun Keluar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SMP</td>
+                <td>SMP Negeri 1 Surabaya</td>
+                <td>2015</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <td>SMA</td>
+                <td>SMA Negeri 5 Surabaya</td>
+                <td>2018</td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td>Universitas</td>
+                <td>Institut Teknologi Sepuluh Nopember Surabaya</td>
+                <td>2021</td>
+                <td>aktif</td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+        <section class="section">
+            <div class="section-header">
+                <h1>Pengalaman Organisasi dan Kepanitiaan</h1>
+                <hr />
+            </div>
+            <div class="section-items">
+                <div class="section-item">
+                    <div class="section-item__header">
+                        <p class="section-item__title">
+                            Himpunan Mahasiswa Teknik Computer-Informatika ITS
+                        </p>
+                        <p class="section-item__date">Februari 2022 - Sekarang</p>
+                    </div>
+                    <p class="section-item__role">Wakil Kepala Departemen Pengembangan Sumber Daya Mahasiswa</p>
+                    <p style="color:slategrey;">HMTC ITS adalah organisasi mahasiswa resmi yang memiliki ranah sosial keprofesian di Departemen Teknik Informatika ITS.</p>
+                    <ul class="section-item__descs">
+                        <li class="section-item__desc">
+                            Satu dari tiga mahasiswa angkatan 2021 yang menjadi Kabinet Sansarga Abhijaya HMTC ITS 2023.
+                        </li>
+                        <li class="section-item__desc">
+                            Melakukan manajemen terhadap fungsi pengembangan dan pengawasan mahasiswa tahun pertama dan kedua.
+                        </li>
+                        
+                        <li class="section-item__desc">
+                            Menjadi pengawas kegiatan Orientasi Keprofesian dan Kompetensi Berbasis Kurikulum Teknik Informatika 2023 dengan peserta
+                        sebanyak 376 mahasiswa baru angkatan 2023.
+                        </li>
+                        <li class="section-item__desc">
+                            Memimpin pelaksanaan kaderisasi Nawasena 2023 dengan peserta sebanyak 260 mahasiswa angkatan 2022.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section-items">
+                    <div class="section-item">
+                        <div class="section-item__header">
+                            <p class="section-item__title">
+                                GERIGI ITS 2023
+                            </p>
+                            <p class="section-item__date">Juli 2023 - Agustus 2023</p>
+                        </div>
+                        <p class="section-item__role">Wakil Kepala Divisi Event</p>
+                        <p style="color:slategrey;">Kegiatan pengenalan kampus dan orientasi mahasiswa baru 2022 yang berisi pengenalan kampus ITS beserta seluruh lingkungan di
+                            dalamnya.</p>
+                        <ul class="section-item__descs">
+                            <li class="section-item__desc">
+                                Memimpin, mengarahkan dan mengevaluasi sebanyak 3 subdivisi beserta 90 orang staff.
+                            </li>
+                            <li class="section-item__desc">
+                                Menyiapkan seluruh rangkaian acara GERIGI ITS 2023 selama 3 hari dengan total peserta sebanyak 6.800 mahasiswa baru
+                                angkatan 2023
+                            </li>
+                            
+                            <li class="section-item__desc">
+                                Berhasil mengonsep Momen Integralistik dan Momen Presidium yang terdiri dari 39 ketua himpunan, 7 ketua BEM Fakultas, dan
+                                Presiden BEM ITS
+                            </li>
+                            <li class="section-item__desc">
+                                Berhasil mengundang Dazen Vrilla, Presiden BEM ITS, dan Duta Kampus ITS pada Talkshow Mental Health hari kedua GERIGI ITS
+                                2023
+                            </li>
+                            <li class="section-item__desc">
+                                Berhasil mendatangkan Walikota Surabaya dan sebanyak 100 lebih undangan ke seluruh jajaran ITS pada ITS Climate Action pada
+                                hari ketiga GERIGI ITS 2023
+                            </li>
+                            <li class="section-item__desc">
+                                Berhasil mengundang ITS Jazz dan DJ Friday No Drunk pada malam penutupan di hari ketiga GERIGI ITS 2023
+                            </li>
+                        </ul>
+                    </div>         
+                    
+                    <div class="section-items">
+                        <div class="section-item">
+                            <div class="section-item__header">
+                                <p class="section-item__title">
+                                    Ini Lho ITS! 2023   
+                                </p>
+                                <p class="section-item__date">Oktober 2022 - Februari 2023</p>
+                            </div>
+                            <p class="section-item__role">Kepala Divisi Operational</p>
+                            <p style="color:slategrey;">Kegiatan dan wadah pengenalan ITS beserta keilmuan dan lingkungan di dalamnya beserta penyebarluasan semangat pendidikan
+                                perguruan tinggi yang ditujukan bagi siswa SMA/sederajat di Indonesia.</p>
+                            <ul class="section-item__descs">
+                                <li class="section-item__desc">
+                                    Memimpin, mengarahkan, dan mengevaluasi sebanyak 4 subdivisi beserta 170 orang staff.
+                                </li>
+                                <li class="section-item__desc">
+                                    Berhasil menjalankan sistem perlengkapan, keamanan, konsumsi dan medis dengan total 687 peserta offline pada hari-h.
+                                </li>
+                                
+                                <li class="section-item__desc">
+                                    Menjangkau hingga 6 negara dan 68 kabupaten/kota selama pelaksanaan acara.
+                                </li>
+                            </ul>
+                        </div>         
+
+                        <div class="section-items">
+                            <div class="section-item">
+                                <div class="section-item__header">
+                                    <p class="section-item__title">
+                                        Pemilu HMTC ITS 2022
+                                    </p>
+                                    <p class="section-item__date">November 2022 - Januari 2023</p>
+                                </div>
+                                <p class="section-item__role">Staff Divisi Kampanye dan Pemberkasan</p>
+                                <p style="color:slategrey;">Serangkaian acara pemilihan umum Himpunan Mahasiswa Teknik Computer-Informatika ITS yang bertujuan untuk mencari ketua
+                                    himpunan baru.</p>
+                                <ul class="section-item__descs">
+                                    <li class="section-item__desc">
+                                        Melakukan screening berkas sebanyak 2 calon ketua himpunan.
+                                    </li>
+                                    <li class="section-item__desc">
+                                        Menyiapkan dan mengawasi seluruh rangkaian kampanye 2 calon ketua himpunan.
+                                    </li>                                
+                                </ul>
+                            </div> 
+
+                        <div class="section-items">
+                            <div class="section-item">
+                                <div class="section-item__header">
+                                    <p class="section-item__title">
+                                        MABA CUP ITS 2022
+                                    </p>
+                                    <p class="section-item__date">September 2022 - Desember 2022</p>
+                                </div>
+                                <p class="section-item__role">Staff Ahli Divisi Acara - Subdivisi Event</p>
+                                <p style="color:slategrey;">Kompetisi minat bakat yang diadakan oleh LMB ITS dengan motto "Dari, Oleh, dan Untuk Mahasiswa Baru 2022".</p>
+                                <ul class="section-item__descs">
+                                    <li class="section-item__desc">
+                                        Mengarahkan staff Subdivisi Event untuk mengonsep Opening dan Closing Party MABA CUP ITS 2022
+                                    </li>
+                                    <li class="section-item__desc">
+                                        Berhasil menghadirkan ratusan representatif mahasiswa baru 2022 dari setiap departemen.
+                                    </li>                                
+                                </ul>
+                            </div> 
+               
+                            <div class="section-items">
+                                <div class="section-item">
+                                    <div class="section-item__header">
+                                        <p class="section-item__title">
+                                            Schematics ITS 2022
+                                        </p>
+                                        <p class="section-item__date">September 2022 - November 2022</p>
+                                    </div>
+                                    <p class="section-item__role">Wakil Ketua 2 Schematics REEVA</p>
+                                    <p style="color:slategrey;">Closing party dari serangkaian acara Schematics milik Teknik Informatika ITS dengan mengadakan expo, donasi serta konser yang
+                                        mengundang artis tanah air.</p>
+                                    <ul class="section-item__descs">
+                                        <li class="section-item__desc">
+                                            Memimpin dan mengarahkan tim Schematics REEVA dalam membuat konser berskala nasional.
+                                        </li>
+                                        <li class="section-item__desc">
+                                            Berhasil mengundang Juicy Luicy, TheOvertunes, dan JKT48.
+                                        </li>   
+                                        <li class="section-item__desc">
+                                            Menjual total sebanyak 2.800 tiket dalam waktu 4 bulan.
+                                        </li>                               
+                                    </ul>
+                                </div> 
+
+            </div>
+        </section>
+
+        <div class="row mt-10">
+            <div class="col-md-12">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="p1.jpg" alt="pengalaman1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="p2.jpg" alt="pengalaman2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="p3.jpg" alt="pengalaman3" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+        <img src="p4.jpg" alt="pengalaman4" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="p5.jpeg" alt="pengalaman5" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="p6.jpeg" alt="pengalaman6" class="d-block w-100">
+      </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="section-header">
+                <h1>Pengalaman Lainnya</h1>
+                <hr/>
+            </div>
+            <div class="section-items">
+                <div class="section-item">
+                    <div class="section-item__header">
+                        <p class="section-item__title">
+                            Pembicara METAMORFOSA HIMATEKPAL 2023
+                        </p>
+                        <p class="section-item__date">2023</p>
+                    </div>
+                    <ul class="section-item__descs">
+                        <li class="section-item__desc">
+                            Menjadi pembicara ke staff HIMATEKPAL ITS dengan topik Manajemen Event.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-items">
+                <div class="section-item">
+                    <div class="section-item__header">
+                        <p class="section-item__title">
+                            Pembicara Upgrading Staff Schematics ITS
+                        </p>
+                        <p class="section-item__date">2023</p>
+                    </div>
+                    <ul class="section-item__descs">
+                        <li class="section-item__desc">
+                            Menjadi pembicara ke staff Schematics ITS dengan topik Brainstorming Event.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+             
+            <div class="section-items">
+                <div class="section-item">
+                    <div class="section-item__header">
+                        <p class="section-item__title">
+                            Asisten Dosen Mata Kuliah Struktur Data    
+                        </p>
+                        <p class="section-item__date">2023</p>
+                    </div>
+                    <ul class="section-item__descs">
+                        <li class="section-item__desc">
+                            Membuat soal praktikum beserta kunci jawabannya, mengawasi praktikum dan
+                            demonstrasi praktikum pada mata kuliah Struktur Data Teknik Informatika ITS   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-items">
+                <div class="section-item">
+                    <div class="section-item__header">
+                        <p class="section-item__title">
+                            Latihan Keterampilan Manajemen Mahasiswa (LKMM) Pra Tingkat Dasar
+                        </p>
+                        <p class="section-item__date">2022</p>
+                    </div>
+                    <ul class="section-item__descs">
+                        <li class="section-item__desc">
+                            Pelatihan dasar kepemimpinan tingkat manajemen
+                            diri dan potensi diri.    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-items">
+                <div class="section-item">
+                    <div class="section-item__header">
+                        <p class="section-item__title">
+                            Gapura Digital Google  
+                        </p>
+                        <p class="section-item__date">2021</p>
+                    </div>
+                    <ul class="section-item__descs">
+                        <li class="section-item__desc">
+                            Pelatihan bidang IT yang diadakan oleh Google Indonesia.  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+</body>
+</html>
